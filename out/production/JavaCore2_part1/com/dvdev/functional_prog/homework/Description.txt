@@ -1,0 +1,44 @@
+Задача:
+
+Дан список студентов с полями:
+- Имя
+- Фамилия
+- Номер курса в университете
+- Список оценок за учебу
+
+Преобразовать этот список студентов в ассоциативный массив, где ключом
+
+является номер курса, а значением:
+
+Средняя оценка студентов этого курса, количество оценок у которых больше 3-х
+
+Список студентов данного курса, но только с полями Имя и Фамилия.
+Список должен быть отсортированы по этим двум полям
+
+Объект с двумя полями:
+- Отсортированный список студентов с пункта 2
+- Средняя оценка этих студентов
+
+
+Task:
+
+Given a list of students with fields:
+- Name
+- Surname
+- University course number
+- List of grades for study
+
+Convert this list of students into an associative array, where the key
+
+is the course number, and the value is:
+
+The average mark of students in this course who have more than 3 marks
+
+A list of students in this course, but only with the fields First Name
+and Last Name.
+The list should be sorted by these two fields
+
+An object with two fields:
+- Sorted list of students from point 2
+- Average score of these students
+

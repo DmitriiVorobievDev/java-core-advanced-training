@@ -1,0 +1,50 @@
+Задача:
+
+Создать класс, описывающий банкомат.
+
+Банкомат задается тремя свойствами:
+- количеством купюр номиналом 10, 20 и 50.
+
+Создать конструктор с тремя параметрами - количеством купюр каждого номинала.
+
+Сделать методы для добавления денег в банкомат.
+
+Сделать метод, снимающий деньги: он принимает сумму денег, а возвращает
+
+булево значение - успешность выполнения операции.
+
+При снятии денег метод должен распечатывать каким количеством купюр какого
+
+ номинала выдаётся сумма. Сначала банкомат будет пытаться рассчитаться 50,
+
+ далее добавит недостающие 20, и только затем 10 (не нужно рассматривать
+
+ более сложные варианты выдачи наличных, чтобы не усложнять алгоритм).
+
+
+ Task:
+
+ Create a class that describes the ATM.
+
+ An ATM is defined by three properties:
+ - the number of banknotes in denominations of 10, 20 and 50.
+
+ Create a constructor with three parameters - the number of banknotes of
+
+ each denomination.
+
+ Make methods for adding money to an ATM.
+
+ Make a method that withdraws money: it accepts the amount of money,
+
+ and returns a boolean value - the success of the operation.
+
+ When withdrawing money, the method should print out how many banknotes
+
+ of what denomination the amount is issued. First, the ATM will try
+
+ to pay off 50, then add the missing 20, and only then 10 (no need
+
+ to consider more complex cash withdrawal options, so as not to complicate
+
+ the algorithm).

@@ -1,0 +1,62 @@
+Задача:
+
+Создать класс Point, описывающий точку в двумерных координатах.
+
+Полями этого класса должны быть координаты x и y.
+
+Класс должен иметь один конструктор, принимающий координаты x и y.
+
+Добавьте функционал для получения скрытой информации (координаты точки),
+
+а получить её можно только с помощью методов доступа (get/set).
+
+Создать метод distance, принимающий объект Point и определяющий расстояние
+
+до неё.
+
+Используя класс точки, создать класс Rectangle, описывающий прямоугольник.
+
+В нём хранятся два поля типа Point - координаты левого верхнего и правого
+
+нижнего углов.
+
+Создать следующие методы в классе Rectangle:
+
+- Высчитывающий площадь прямоугольника
+- Высчитывающий длину диагонали
+
+Написать тестовый класс с методом main программу, демонстрирующим создание
+
+объекта класса Rectangle и применение вышеперечисленных методов.
+
+
+Task:
+
+Create a Point class that describes a point in 2D coordinates.
+
+The fields of this class must be x and y coordinates.
+
+The class must have one constructor that accepts x and y coordinates.
+
+Add functionality to get hidden information (point coordinates), and you
+
+can get it only using access methods (get/set).
+
+Create a distance method that takes a Point object and determines the
+
+distance to it.
+
+Using the point class, create a Rectangle class that describes a rectangle.
+
+It stores two fields of type Point - the coordinates of the upper left and
+
+lower right corners.
+
+Create the following methods in the Rectangle class:
+
+- Calculating the area of a rectangle
+- Calculating the length of the diagonal
+
+Write a test class with a main method that demonstrates how to create
+
+an object of the Rectangle class and apply the above methods.

@@ -1,0 +1,56 @@
+Задача:
+
+Представить в виде классов и их композиции следующую модель.
+
+- Каждый дом содержит свой номер (int), и множество этажей (массив).
+
+- Каждый этаж содержит номер этажа (int), и множество квартир (массив).
+
+- Каждая квартира содержит свой номер (int), и множество комнат (массив).
+
+- Каждая комната содержит поле проходная она или нет (boolean).
+
+В каждом классе реализовать метод print, который на консоль выводит информацию
+
+об объекте (должны присутствовать все поля объекта!).
+
+Например, метод print класса этаж должен выводить на консоль:
+
+“Этаж 2, количество квартир 18”
+
+Создание всех объектов вынести в отдельный класс с методом main.
+
+Там же реализовать метод printAllInformation, который на вход принимает
+
+объект типа дом, и выводит информацию о нем, его этажах, квартирах и комнатах,
+
+вызывая методы print.
+
+
+Task:
+
+Represent the following model in the form of classes and their composition.
+
+- Each house contains its own number (int), and a set of floors (array).
+
+- Each floor contains a floor number (int), and a set of apartments (array).
+
+- Each apartment contains its own number (int), and a set of rooms (array).
+
+- Each room contains a field whether it is walkable or not (boolean).
+
+In each class, implement the print method, which prints information to the console
+
+about the object (all fields of the object must be present!).
+
+For example, the print method of the floor class should output to the console:
+
+“Floor 2, number of apartments 18”
+
+Move the creation of all objects into a separate class with the main method.
+
+In the same place, implement the printAllInformation method, which takes input
+
+house type object and displays information about it, its floors, apartments and rooms,
+
+calling the print methods.
