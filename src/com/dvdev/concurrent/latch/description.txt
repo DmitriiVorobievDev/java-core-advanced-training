@@ -1,0 +1,5 @@
+Имеется ракета, состоящая из разных частей.
+Она может полететь только тогда, когда все части готовы.
+
+There is a rocket, consisting of different parts.
+It can fly only when all parts are ready.
